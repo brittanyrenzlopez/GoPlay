@@ -1,2 +1,2 @@
-# first-capstone
+# GoPlay
 First Capstone using AJAX
