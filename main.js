@@ -1,12 +1,4 @@
 
-
-
-//LASTFM: API key	be44ab85abf2eb6ae8f69159528b2fca
-//Shared secret	34f8f9600096635011bd752bf144ddd5
-//SongKick API: sMCqbLWZn5ZmhtpU
-//MY SONGKICK: Lpl57W3wcb5NEdNk
-
-
 const songkickURL = "https://api.songkick.com/api/3.0/events.json?apikey=Lpl57W3wcb5NEdNk";
 var concertInfo = [];
 
