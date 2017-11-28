@@ -1,7 +1,7 @@
 # GoPlay
 First Capstone using AJAX
 
-Technologies used:
+# Technologies used:
 HTML 
 CSS
 JavaScript
