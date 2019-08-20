@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GoPlay</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<main role="main">
+<section class="intro">
+  <div class="inner">
+      <div class="content" role="contentinfo">
+        <h1 id="goPlay">GoPlay</h1>
+
+<!-- Search for Artist-->
+         <form class="search-form" role = "search">
+    <input type="text" label for="searching" class="search" id="searching" placeholder="search for artist">
+    <button type="button" id="search-btn">Search</button>
+  </form>
+
+<!-- Content Display -->
+    <div id="container" style="display:none;" role="contentinfo">
+      <button type="button" class="closing" onclick="lose();">&times;</button>
+      <h1 id="artistName">Artist Name</h1>
+      <h3 id="topTrack">Top Tracks</h3>
+
+      <div id="tracks">
+
+        <!-- Holds Top Tracks -->
+
+      </div>
+
+<!-- Upcoming Events-->
+<h3 aria-label="Event List">Upcoming Events</h3>
+
+      <div id = "concert-cont" role="contentinfo">
+        <!-- Holds upcoming events-->
+      </div> 
+    </div>
+  </div>
+</div>
+
+</section>
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  </body>
+</html>

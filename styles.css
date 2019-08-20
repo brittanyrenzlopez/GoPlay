@@ -1,0 +1,178 @@
+html, body {
+  overflow: auto;
+  background: url(https://i.imgur.com/rcvkhGZ.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/* Content Display */
+#container {
+	opacity: 0.95;
+	position: absolute;
+	display: table;
+	padding:0;
+	top:0;
+	left:0;
+	right: 0;
+	background-color: #202020;
+	margin-top: 20px;
+	width: 90%;
+	min-height: 80px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+}
+
+#concert-cont {
+	top:0;
+	margin: 0 auto;
+	bottom: 0px;
+	border: 2px solid #404040;
+	background-color: #303030;
+	width: 70%;
+  	min-height: 100px;
+  	height: 300px;
+  	overflow-y: scroll;
+	margin-top: 12px;
+	padding-bottom: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* Close Button */
+.closing {
+	background-color: gold;
+	display: flex;
+	justify-content: right;
+}
+
+.closing:hover {
+	background-color: rgba(255,255,255, 0.3);
+
+}
+
+/* GoPlay screen */
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top: 0;
+}
+
+.inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+
+/* Links */
+a {
+	color: whitesmoke;
+	font-family: Century Gothic;
+}
+
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*Search Name*/
+#artistName {
+	color: gold;
+	font-size: 300%;
+}
+
+h3 {
+	color: gold;
+	font-size: 120%;
+	text-shadow:  2px 2px    #202020;
+	font-family: Century Gothic;
+}
+
+.content h1 {
+	font-family: Century Gothic;
+    letter-spacing: 14px;
+    text-align: center;
+    color: #202020;
+    border-radius: 0px;
+	text-shadow:  2px 2px     #fff5cc;
+	font-size: 500%;
+}
+
+.content h4 {
+	font-family: Century Gothic;
+	top: 30px;
+	letter-spacing: 10px;
+	text-align: center;
+	color: #202020;
+	text-shadow:  1px 1px    #fff2cc;
+	border-radius: 0px;
+
+}
+
+/*Search Button*/
+
+#search-btn {
+	position: relative;
+	top: -170px;
+	font-size: 14px;
+	font-family: Helvetica;
+	line-height: 120%;
+	color: whitesmoke;
+	background-color: #202020;
+	border: 1px solid #202020;
+	padding: 10px 12px;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color ease 400ms;
+}
+
+#search-btn:hover {
+	color: black;
+	background-color: rgba(245, 190, 24, 0.58);
+}
+
+/* Search Form*/
+.search-form {
+      max-width:380px;
+      margin:225px auto;
+      }
+ ::-webkit-input-placeholder { 
+    color:   #202020;
+}
+
+
+input.search {
+      text-align: center;
+      outline:0;
+      border: 1px solid #202020;
+      background-color: transparent;
+      transition: background-color ease 200ms;
+      color: black;
+      width: 120%;
+      left: -10%;
+      position: relative;
+      top: -180px;
+      border-radius: 5px;
+      font-size: 28px;
+      font-family: Helvetica;
+      box-shadow: 0px 0px 300px black;
+    }
+
+/*media query*/
+@media screen and (max-width: 768px) {
+	.content h1 {
+		font-size: 250%;
+	}
+}
+
