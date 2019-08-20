@@ -1,4 +1,3 @@
-
 const songkickURL = "https://api.songkick.com/api/3.0/events.json?apikey=Lpl57W3wcb5NEdNk";
 var concertInfo = [];
 
