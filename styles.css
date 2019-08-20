@@ -42,6 +42,7 @@ html, body {
 	padding-bottom: 25px;
 	padding-left: 5px;
 	padding-right: 5px;
+	list-style-type: none;
 }
 
 /* Close Button */
@@ -53,7 +54,6 @@ html, body {
 
 .closing:hover {
 	background-color: rgba(255,255,255, 0.3);
-
 }
 
 /* GoPlay screen */
@@ -76,7 +76,13 @@ html, body {
 /* Links */
 a {
 	color: whitesmoke;
+	font-size: 120%;
 	font-family: Century Gothic;
+	margin-bottom: 40px;
+}
+
+a:hover {
+	color: gold;
 }
 
 .content {
